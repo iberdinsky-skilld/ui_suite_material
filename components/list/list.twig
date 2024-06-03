@@ -1,0 +1,7 @@
+<md-list aria-label="Interactive example">
+  {% for item in items %}
+    <md-list-item type="link" href="{{ item.url }}" >
+      {{ item.title }}
+    </md-list-item>
+  {% endfor %}
+</md-list>
